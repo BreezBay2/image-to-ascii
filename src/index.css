@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.theme-dark {
+    --primary: #1d232a;
+    --secondary: #ecf9ff;
+    --toggle: #d3dfe4;
+    --border: #2d363f;
+    --shadow: rgba(255, 255, 255, 0);
+}
+
+.theme-light {
+    --primary: #ffffff;
+    --secondary: #18181b;
+    --toggle: #3f3f46;
+    --border: #eeeeee;
+    --shadow: rgba(0, 0, 0, 0.1);
+}
